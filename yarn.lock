@@ -2859,6 +2859,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@startupcraft/react-native-sharenator-example@workspace:example":
+  version: 0.0.0-use.local
+  resolution: "@startupcraft/react-native-sharenator-example@workspace:example"
+  dependencies:
+    "@babel/core": ^7.20.0
+    "@babel/preset-env": ^7.20.0
+    "@babel/runtime": ^7.20.0
+    "@react-native/babel-preset": 0.74.85
+    "@react-native/metro-config": 0.74.85
+    "@react-native/typescript-config": 0.74.85
+    babel-plugin-module-resolver: ^5.0.0
+    react: 18.2.0
+    react-native: 0.74.3
+  languageName: unknown
+  linkType: soft
+
 "@startupcraft/react-native-sharenator@workspace:.":
   version: 0.0.0-use.local
   resolution: "@startupcraft/react-native-sharenator@workspace:."
@@ -10870,22 +10886,6 @@ __metadata:
   checksum: 39b3dd9630a774aba288a680e7d2901f5c0eae7b8387fc5c8ea559918b29b3da144b7bdb990d7ccd9e11be05508ac9e459ce51d01fd65e583282f6ffafcba2e7
   languageName: node
   linkType: hard
-
-"sharenator-example@workspace:example":
-  version: 0.0.0-use.local
-  resolution: "sharenator-example@workspace:example"
-  dependencies:
-    "@babel/core": ^7.20.0
-    "@babel/preset-env": ^7.20.0
-    "@babel/runtime": ^7.20.0
-    "@react-native/babel-preset": 0.74.85
-    "@react-native/metro-config": 0.74.85
-    "@react-native/typescript-config": 0.74.85
-    babel-plugin-module-resolver: ^5.0.0
-    react: 18.2.0
-    react-native: 0.74.3
-  languageName: unknown
-  linkType: soft
 
 "shebang-command@npm:^2.0.0":
   version: 2.0.0
