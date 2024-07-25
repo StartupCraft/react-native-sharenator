@@ -1,11 +1,20 @@
 package io.startupcraft.sharenator
 
-import com.facebook.react.bridge.ReactApplicationContext
-import com.facebook.react.bridge.ReactContextBaseJavaModule
-import com.facebook.react.bridge.ReactMethod
-import com.facebook.react.bridge.Promise
+import android.app.Activity
+import android.content.Context
+import android.content.Intent
+import android.content.Intent.ACTION_SEND
+import android.content.Intent.ACTION_SEND_MULTIPLE
+import android.graphics.Bitmap
+import android.graphics.BitmapFactory
+import android.net.Uri
+import android.os.Parcelable
+import android.provider.OpenableColumns
+import android.webkit.MimeTypeMap
+import com.facebook.react.bridge.*
+import java.io.File
 
-class ShareModule(reactContext: ReactApplicationContext) :
+class SharenatorModule(reactContext: ReactApplicationContext) :
   ReactContextBaseJavaModule(reactContext) {
 
   companion object {
