@@ -10,7 +10,7 @@ import com.facebook.react.module.annotations.ReactModule;
 
 @ReactModule(name = SharenatorModule.NAME)
 public class SharenatorModule extends ReactContextBaseJavaModule {
-  public static final String NAME = 'SharenatorModule';
+  public static final String NAME = "SharenatorModule";
 
   public SharenatorModule(ReactApplicationContext reactContext) {
     super(reactContext);
