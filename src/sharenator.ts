@@ -8,7 +8,7 @@ export type ShareData = {
   text?: string;
 };
 
-export function fetchData(): Promise<ShareData> {
+export function fetchData(): Promise<ShareData[]> {
   return SharenatorModule.fetchData();
 }
 

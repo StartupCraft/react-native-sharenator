@@ -5,6 +5,6 @@ export type ShareData = {
     subject?: string;
     text?: string;
 };
-export declare function fetchData(): Promise<ShareData>;
+export declare function fetchData(): Promise<ShareData[]>;
 export declare function close(): void;
 //# sourceMappingURL=sharenator.d.ts.map
