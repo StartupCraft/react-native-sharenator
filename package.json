@@ -1,14 +1,14 @@
 {
   "name": "@startupcraft/react-native-sharenator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Share into the app with no pain",
   "source": "./src/index.ts",
   "main": "./lib/commonjs/index.js",
   "module": "./lib/module/index.js",
-  "types": "./lib/typescript/src/index.d.ts",
+  "types": "./lib/typescript/index.d.ts",
   "exports": {
     ".": {
-      "types": "./lib/typescript/src/index.d.ts",
+      "types": "./lib/typescript/index.d.ts",
       "import": "./lib/module/index.js",
       "require": "./lib/commonjs/index.js"
     }
