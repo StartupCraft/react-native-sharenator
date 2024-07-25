@@ -1,4 +1,4 @@
-package com.sharenator;
+package io.startupcraft.sharenator;
 
 import androidx.annotation.NonNull;
 

@@ -1,4 +1,5 @@
 {
   "extends": "./tsconfig",
-  "exclude": ["example", "lib"]
+  "include": ["src", ".eslintrc.js", "babel.config.js"],
+  "exclude": ["node_modules", "lib", "docs", "example"]
 }

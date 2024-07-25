@@ -1,8 +1,8 @@
 {
-  "name": "sharenator",
+  "name": "@startupcraft/react-native-sharenator",
   "version": "0.1.0",
   "description": "Share into the app with no pain",
-  "source": "./src/index.tsx",
+  "source": "./src/index.ts",
   "main": "./lib/commonjs/index.js",
   "module": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
@@ -32,8 +32,7 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace sharenator-example",
-    "test": "jest",
+    "example": "yarn workspace @startupcraft/react-native-sharenator-example",
     "typecheck": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "clean": "del-cli android/build example/android/build example/android/app/build example/ios/build lib",
@@ -43,41 +42,38 @@
   "keywords": [
     "react-native",
     "ios",
-    "android"
+    "android",
+    "sharing",
+    "module"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sergeylaptev/sharenator.git"
-  },
-  "author": "Sergei Laptev <iamsergeilaptev@gmail.com> (https://github.com/sergeylaptev)",
+  "repository": "https://github.com/StartupCraft/react-native-sharenator",
+  "author": "Sergey Laptev <sergey@startupcraft.io> (https://github.com/sergeylaptev)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sergeylaptev/sharenator/issues"
+    "url": "https://github.com/StartupCraft/react-native-sharenator/issues"
   },
-  "homepage": "https://github.com/sergeylaptev/sharenator#readme",
+  "homepage": "https://github.com/StartupCraft/react-native-sharenator",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "@commitlint/config-conventional": "^17.0.2",
-    "@evilmartians/lefthook": "^1.5.0",
-    "@react-native/eslint-config": "^0.73.1",
-    "@release-it/conventional-changelog": "^5.0.0",
-    "@types/jest": "^29.5.5",
-    "@types/react": "^18.2.44",
-    "commitlint": "^17.0.2",
-    "del-cli": "^5.1.0",
-    "eslint": "^8.51.0",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-prettier": "^5.0.1",
-    "jest": "^29.7.0",
-    "prettier": "^3.0.3",
+    "@commitlint/config-conventional": "17.0.2",
+    "@evilmartians/lefthook": "1.5.0",
+    "@react-native/eslint-config": "0.73.1",
+    "@release-it/conventional-changelog": "5.0.0",
+    "@types/react": "18.2.44",
+    "commitlint": "17.0.2",
+    "del-cli": "5.1.0",
+    "eslint": "8.51.0",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-plugin-prettier": "5.0.1",
+    "prettier": "3.0.3",
     "react": "18.2.0",
     "react-native": "0.74.3",
-    "react-native-builder-bob": "^0.27.0",
-    "release-it": "^15.0.0",
-    "turbo": "^1.10.7",
-    "typescript": "^5.2.2"
+    "react-native-builder-bob": "0.27.0",
+    "release-it": "15.0.0",
+    "turbo": "1.10.7",
+    "typescript": "5.2.2"
   },
   "resolutions": {
     "@types/react": "^18.2.44"
@@ -90,13 +86,6 @@
     "example"
   ],
   "packageManager": "yarn@3.6.1",
-  "jest": {
-    "preset": "react-native",
-    "modulePathIgnorePatterns": [
-      "<rootDir>/example/node_modules",
-      "<rootDir>/lib/"
-    ]
-  },
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"

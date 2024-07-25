@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'sharenator';
+import { multiply } from '@startupcraft/react-native-sharenator';
 
 export default function App() {
   const [result, setResult] = useState<number | undefined>();
