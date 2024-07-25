@@ -7,7 +7,7 @@ import com.facebook.react.uimanager.ViewManager
 
 class SharenatorPackage : ReactPackage {
   override fun createNativeModules(reactContext: ReactApplicationContext): List<NativeModule> {
-    return listOf(ShareModule(reactContext))
+    return listOf(SharenatorModule(reactContext))
   }
 
   override fun createViewManagers(reactContext: ReactApplicationContext): List<ViewManager<*, *>> {
