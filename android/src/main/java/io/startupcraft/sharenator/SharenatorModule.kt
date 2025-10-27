@@ -26,7 +26,10 @@ class SharenatorModule(reactContext: ReactApplicationContext) :
   }
 
   @ReactMethod
-  fun close() = currentActivity?.finish()
+  fun close(promise: Promise) {
+    currentActivity?.finish()
+    promise.resolve(null)
+  }
 
   @ReactMethod
   fun fetchData(promise: Promise) = promise.resolve(processIntent(currentActivity))
