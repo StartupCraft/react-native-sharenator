@@ -1,6 +1,6 @@
 {
   "name": "@startupcraft/react-native-sharenator",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Share into the app with no pain",
   "source": "./src/index.ts",
   "main": "./lib/commonjs/index.js",
